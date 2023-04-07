@@ -8,5 +8,20 @@ export default {
       type: 'string',
       title: 'Name',
     },
+    // {
+    //   name: 'projects',
+    //   type: 'array',
+    //   title: 'Projects',
+    //   of: [
+    //     {
+    //       type: 'reference',
+    //       to: [
+    //         {
+    //           type: 'projects',
+    //         },
+    //       ],
+    //     },
+    //   ],
+    // },
   ],
 }
