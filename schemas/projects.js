@@ -13,5 +13,20 @@ export default {
       type: 'string',
       title: 'Description',
     },
+    {
+      name: 'teams',
+      title: 'Teams',
+      type: 'array',
+      of: [
+        {
+          type: 'reference',
+          to: [
+            {
+              type: 'teams',
+            },
+          ],
+        },
+      ],
+    },
   ],
 }

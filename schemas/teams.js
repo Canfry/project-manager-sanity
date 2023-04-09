@@ -10,18 +10,24 @@ export default {
     },
     // {
     //   name: 'projects',
-    //   type: 'array',
     //   title: 'Projects',
-    //   of: [
-    //     {
-    //       type: 'reference',
-    //       to: [
-    //         {
-    //           type: 'projects',
-    //         },
-    //       ],
-    //     },
-    //   ],
+    //   type: 'array',
+    //   of: [{type: 'projects'}],
     // },
+    {
+      name: 'projects',
+      type: 'array',
+      title: 'Projects',
+      of: [
+        {
+          type: 'reference',
+          to: [
+            {
+              type: 'projects',
+            },
+          ],
+        },
+      ],
+    },
   ],
 }
