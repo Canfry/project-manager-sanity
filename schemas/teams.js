@@ -20,12 +20,7 @@ export default {
       title: 'Projects',
       of: [
         {
-          type: 'reference',
-          to: [
-            {
-              type: 'projects',
-            },
-          ],
+          type: 'projects',
         },
       ],
     },

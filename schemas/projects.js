@@ -19,12 +19,7 @@ export default {
       type: 'array',
       of: [
         {
-          type: 'reference',
-          to: [
-            {
-              type: 'teams',
-            },
-          ],
+          type: 'teams',
         },
       ],
     },
